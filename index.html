@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+      <title>Aprendealgo</title>
+   </head>
+   <body>
+      <div class="container">
+         <header>
+            <nav>
+               <div class="name-logo">
+                  <a href="#">
+                     <img src="img/logo.png" alt="logo">
+                  </a>               
+                  <h2>Aprendealgo</h2>
+               </div>
+               <div class="shopping-cart">
+                  <button class="cart-icon">
+                     <i class="fas fa-shopping-cart"></i>
+                  </button>
+                  <div id="cart">             
+                     <table id="cart-list" class="cart-list">
+                        <thead>
+                           <tr>
+                              <th class="table-image">Image</th>
+                              <th class="table-name">Name</th>
+                              <th class="table-price">Price</th>
+                              <th class="table-icon-delete"></th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td><img src="img/curso1.jpg" alt="cu1"></td>
+                              <td>Este nombre del curso anadido al carrito</td>
+                              <td>$10</td>
+                              <td>
+                                 <button class="pop-course">
+                                    <i class="fas fa-trash"></i>
+                                 </button>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td><img src="img/curso1.jpg" alt="cu1"></td>
+                              <td>Este nombre del curso anadido al carrito</td>
+                              <td>$10</td>
+                              <td>
+                                 <button class="pop-course">
+                                    <i class="fas fa-trash"></i>
+                                 </button>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td><img src="img/curso1.jpg" alt="cu1"></td>
+                              <td>Este nombre del curso anadido al carrito</td>
+                              <td>$10</td>
+                              <td>
+                                 <button class="pop-course">
+                                    <i class="fas fa-trash"></i>
+                                 </button>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     <div class="div-clear-cutton">
+                        <button id="clear-cart" class="button-clear-cart">CLEAR CART</button>
+                     </div>
+                  </div>
+               </div>
+            </nav>
+         </header>
+         <div class="presentation">
+            <h1>The power to learn</h1>
+            <h4>all courses at $ 10</h4>
+         </div>
+         <div class="strengths">
+            <div>
+               <i class="far fa-lightbulb"></i>
+               <div class="strengths-description">
+                  <p>20,000 online courses</p>
+                  <p>Explore the latest topics</p>   
+               </div>
+            </div>
+            <div>
+               <i class="fas fa-arrows-alt"></i>
+               <div class="strengths-description">
+                  <p>Expert instructors</p>
+                  <p>Learn with different styles</p>   
+               </div>
+            </div>
+            <div>
+               <i class="far fa-clock"></i>
+               <div class="strengths-description">
+                  <p>Lifetime access</p>
+                  <p>Learn at your own pace</p>   
+               </div>
+            </div>
+         </div>
+         <div class="courses-list">
+            <h2>Courses</h2>
+            <div class="grid-courses">
+               <div class="course">
+                  <img src="img/curso1.jpg" alt="curso1">
+                  <p><b>HTML, CSS y JS professional</b></p>
+                  <p>Eliceo J. Herbas</p>
+                  <img src="img/estrellas.png" alt="stars">
+                  <div class="prices">
+                     <p><s>$100</s></p>
+                     <p><b>$10</b></p>
+                  </div>
+                  <button id="add-cart" class="add-cart-button">Add to cart</button>
+               </div>
+               <div class="course">
+                  <img src="img/curso2.jpg" alt="curso2">
+                  <p><b>Vegetarian food course</b></p>
+                  <p>Eliceo J. Herbas</p>
+                  <img src="img/estrellas.png" alt="stars">
+                  <div class="prices">
+                     <p><s>$100</s></p>
+                     <p><b>$10</b></p>
+                  </div>
+                  <button id="add-cart" class="add-cart-button">Add to cart</button>
+               </div>
+               <div class="course">
+                  <img src="img/curso3.jpg" alt="curso3">
+                  <p><b>Guitar for beginners</b></p>
+                  <p>Eliceo J. Herbas</p>
+                  <img src="img/estrellas.png" alt="stars">
+                  <div class="prices">
+                     <p><s>$100</s></p>
+                     <p><b>$10</b></p>
+                  </div>
+                  <button id="add-cart" class="add-cart-button">Add to cart</button>
+               </div>
+               <div class="course">
+                  <img src="img/curso4.jpg" alt="curso4">
+                  <p><b>Learn to create your garden</b></p>
+                  <p>Eliceo J. Herbas</p>
+                  <img src="img/estrellas.png" alt="stars">
+                  <div class="prices">
+                     <p><s>$100</s></p>
+                     <p><b>$10</b></p>
+                  </div>
+                  <button id="add-cart" class="add-cart-button">Add to cart</button>
+               </div>
+               <div class="course">
+                  <img src="img/curso5.jpg" alt="curso5">
+                  <p><b>Decoration with household products</b></p>
+                  <p>Eliceo J. Herbas</p>
+                  <img src="img/estrellas.png" alt="stars">
+                  <div class="prices">
+                     <p><s>$100</s></p>
+                     <p><b>$10</b></p>
+                  </div>
+                  <button id="add-cart" class="add-cart-button">Add to cart</button>
+               </div>
+               <div class="course">
+                  <img src="img/curso1.jpg" alt="curso6">
+                  <p><b>Programming for beginners</b></p>
+                  <p>Eliceo J. Herbas</p>
+                  <img src="img/estrellas.png" alt="stars">
+                  <div class="prices">
+                     <p><s>$100</s></p>
+                     <p><b>$10</b></p>
+                  </div>
+                  <button id="add-cart" class="add-cart-button">Add to cart</button>
+               </div>
+               <div class="course">
+                  <img src="img/curso2.jpg" alt="curso7">
+                  <p><b>Learn to cook simple</b></p>
+                  <p>Eliceo J. Herbas</p>
+                  <img src="img/estrellas.png" alt="stars">
+                  <div class="prices">
+                     <p><s>$100</s></p>
+                     <p><b>$10</b></p>
+                  </div>
+                  <button id="add-cart" class="add-cart-button">Add to cart</button>
+               </div>
+               <div class="course">
+                  <img src="img/curso3.jpg" alt="curso8">
+                  <p><b>Definitive guitar course</b></p>
+                  <p>Eliceo J. Herbas</p>
+                  <img src="img/estrellas.png" alt="stars">
+                  <div class="prices">
+                     <p><s>$100</s></p>
+                     <p><b>$10</b></p>
+                  </div>
+                  <button id="add-cart" class="add-cart-button">Add to cart</button>
+               </div>
+               <div class="course">
+                  <img src="img/curso4.jpg" alt="curso9">
+                  <p><b>Learn to manage your garden</b></p>
+                  <p>Eliceo J. Herbas</p>
+                  <img src="img/estrellas.png" alt="stars">
+                  <div class="prices">
+                     <p><s>$100</s></p>
+                     <p><b>$10</b></p>
+                  </div>
+                  <button id="add-cart" class="add-cart-button">Add to cart</button>
+               </div>
+            </div>
+         </div>
+         <footer>
+            <img src="img/logo.png" alt="footer-logo">
+            <div class="links-principal">
+               <a class="enlace" href="#">For your business</a>
+               <a class="enlace" href="#">Become an instructor</a>
+               <a class="enlace" href="#">Mobile apps</a>
+               <a class="enlace" href="#">Suport</a>
+            </div>
+            <div class="links-secondary">
+               <a class="enlace" href="#">Abour us</a>
+               <a class="enlace" href="#">Jobs</a>
+               <a class="enlace" href="#">Themes</a>
+               <a class="enlace" href="#">Blog</a>
+            </div>
+         </footer>
+      </div>
+
+      <script src="js/script.js"></script>
+   </body>
+</html>

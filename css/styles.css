@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+html{
+   font-family: 'Lato', sans-serif;
+   background-color: #0f3057;
+   color: white;
+}
+
+
+/****************** HEADER *******************/
+
+
+
+header nav{
+   display: flex;
+   padding: 5px 10%;
+   box-shadow: 0px 0px 5px #000;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.name-logo{
+   display: flex;
+   font-size: 25px;
+}
+
+.name-logo img{
+   width: 50px;
+   height: 50px;
+}
+
+
+.cart-icon{
+   background: none;
+   color: white;
+   border: none;
+   font-size: 25px;
+   cursor: pointer;
+   outline: none;
+}
+
+.cart-icon:hover{
+   color: #e7e7de;
+}
+
+#cart{
+   display: none;
+}
+
+#cart{
+   display: none;
+   position: absolute;
+   right:10%;
+   top: 7%;
+   z-index: 1;
+   background-color: #00587a;
+   padding: 20px;
+   border-radius: 1%;
+   min-height: 400px;
+   max-width: 500px;
+}
+
+.cart-list{
+   width: 100%;
+   table-layout: fixed;
+}
+
+th, td{
+   text-align: center;
+}
+
+th{
+   border-bottom: 1px #e7e7de solid ;
+   padding-bottom: 10px;
+}
+
+td{
+   padding: 10px 0;
+   border-bottom: 1px #e7e7de solid ;
+   word-wrap: break-word;
+}
+
+.table-image{
+   width: 25%;
+}
+
+.table-name{
+   width: 50%;
+}
+
+.table-icon-delete{
+   width: 10%;
+}
+
+.cart-list img{
+   width: 100px;
+   height: 70px;
+   border-radius: 5%;
+}
+
+.pop-course{
+   background: none;
+   color: rgb(235, 96, 96);
+   padding: 8px;
+   font-size: 20px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+}
+
+.pop-course:hover{
+   color: red;
+}
+
+.div-clear-cutton{
+   text-align: center;
+   margin: 15px 0;
+}
+
+.button-clear-cart{
+   width: 100%;
+   padding: 10px 0;
+   background-color: #008891;
+   color: white;
+   outline: none;
+   border: none;
+   border-radius: 5px;
+}
+
+.button-clear-cart:hover{
+   background-color: #0cb9c5;
+}
+
+@media only screen and (max-width: 600px) {
+   .name-logo{
+      font-size: 20px;
+   }
+
+   .name-logo img{
+      width: 40px;
+      height: 40px;
+   }
+}
+
+@media only screen and (max-width: 675px){
+   #cart{
+      max-width: 100%;
+      right: 0;   
+   }
+}
+
+/************** PRESENTATION ********************/
+
+
+/******************* STRENGHT *********************/
+
+
+
+/****************** COURSES ***********************/
+
+
+/********************FOOTER***********************/
