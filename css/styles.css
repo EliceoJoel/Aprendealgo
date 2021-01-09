@@ -11,10 +11,12 @@ html{
    color: white;
 }
 
+.container{
+   padding: 0 10%;
+}
+
 
 /****************** HEADER *******************/
-
-
 
 header nav{
    display: flex;
@@ -150,18 +152,201 @@ td{
 @media only screen and (max-width: 675px){
    #cart{
       max-width: 100%;
-      right: 0;   
+      right: 0;
    }
 }
 
 /************** PRESENTATION ********************/
+.presentation{
+   margin: 30px 0;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
 
+.presentation-text{
+   width: 45%;
+}
+
+.presentation-text h1{
+   font-size: 50px;
+}
+
+.presentation-text p{
+   font-size: 25px;
+   line-height: 35px;
+   margin: 30px 0;
+}
+
+.principal-button{
+   font-size: 25px;
+   padding: 10px 40px;
+   background-color:#008891;
+   border: none;
+   outline: none;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.principal-button:hover{
+   background-color: #0cb9c5;
+}
+
+.presentation img{
+   width: 50%;
+   height: auto;
+   border-radius: 5px;
+}
+
+@media (max-width: 1200px){
+   .presentation{
+      display: block;
+   }
+
+   .presentation-text{
+      width: 100%;
+   }
+
+   .presentation img{
+      margin-top: 30px;
+      width: 100%;
+   }
+}
 
 /******************* STRENGHT *********************/
 
+.strengths{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   border-width: 3px 0;
+   border-style: dotted;
+   padding: 10px 5px;
+}
 
+.strengths-content{
+   display: flex;
+   font-size: 20px;
+   align-items: center;
+}
+
+.strengths-content i{
+   font-size: 50px;
+   padding: 0 20px;
+   color:  #0cb9c5;
+}
+
+@media (max-width: 900px){
+   .strengths{
+      display: block;
+      border-width: 3px 0;
+      border-style: dotted;
+
+   }
+   .strengths-content{
+      padding: 15px 0;
+      justify-content: center;
+   }
+}
 
 /****************** COURSES ***********************/
 
+.title-courses{
+   font-size: 25px;
+   padding: 35px 0;
+   text-align: center;
+}
+
+.grid-courses{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 20px;
+}
+
+.img-course{
+   width: 100%;
+   height: auto;
+   border-radius: 5px 5px 0 0;
+}
+
+.course{
+   border-radius: 5px;
+   border: 2px white;
+   border-style: dotted;
+}
+
+.course-detail{
+   padding: 10px;
+}
+
+.end-card{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.prices{
+   text-align: center;
+   padding: 0 15px;
+}
+
+.prices p b{
+   font-size: 25px;
+}
+
+.course button{
+   background-color: #008891;
+   border: none;
+   outline: none;
+   padding: 10px 20px;
+   font-size: 15px;
+   color: white;
+   border-radius: 5px;
+   margin: 7px 0;
+   cursor: pointer;
+}
+
+.course button:hover{
+   background-color: #0cb9c5;
+}
+
+@media(max-width: 900px){
+   .grid-courses{
+      grid-template-columns: auto auto;
+   }
+}
+
+@media(max-width: 675px){
+   .grid-courses{
+      grid-template-columns: auto;
+   }
+}
 
 /********************FOOTER***********************/
+
+footer{
+   box-shadow: 5px 0px 5px #000;
+   padding: 10px 10%;
+   margin-top: 80px;
+   display: flex;
+   justify-content: space-around;
+
+}
+
+footer img{
+   width: 100px;
+   height: auto;
+}
+
+
+.enlace{
+   color: white;
+   text-decoration: none;
+   display: block;
+   line-height: 30px;
+}
+
+.enlace:hover{
+   color: #0cb9c5;
+}
